@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Tweet.create(name: "takashi", text: "Nice to meet you!", image: 'https://tech-master.s3.amazonaws.com/uploads/curriculums/images/Rails1-4/sample.jpg')
+Tweet.create(name: "ishi", text: "Hello world!")
+Tweet.create(name: "yabe", text: "railsへようこそ!")
